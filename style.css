@@ -1,0 +1,34 @@
+
+.grid-container{
+    background-color: #333;
+}
+  .gridcontainer{
+      display: grid;
+      grid-template-columns: 20vw 80vw;
+      grid-template-rows: 100vh;
+  }
+
+.sidebar{
+    margin-left: 15px;
+    display: flex;
+}
+#map {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-left: 25px;
+    height: 700px;
+    width: 95vw;
+}
+#heading{
+    font-weight: 500;
+    color: #fff;
+    padding: 20px;
+}
+
+.para{
+    display: inline-block;
+    margin-left: 10px;
+    color: #017243;
+}
+
